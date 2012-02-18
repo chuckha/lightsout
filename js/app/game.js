@@ -230,7 +230,7 @@ define(function (require) {
     lights.setPuzzle(puzzle);
     
     // Render the puzzle after it has been set
-    $('header').after(b.el);
+    $('header').after(board.el);
   };
 
   // Return the function to run the game.
