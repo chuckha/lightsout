@@ -12,8 +12,8 @@ require.config({
 });
 
 
-requirejs(['jquery', 'app/game'], function ($, game) {
+requirejs(['jquery', 'app/game'], function ($, go) {
   $(document).ready(function () {
-    game.go();
+    go();
   });
 });
